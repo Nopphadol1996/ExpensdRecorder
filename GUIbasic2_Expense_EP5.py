@@ -7,7 +7,7 @@ import csv
 
 GUI = Tk()
 
-GUI.title('โปรแกรมบันทึกค่าใช้จ่าย By Nopphadol')
+GUI.title('โปรแกรมบันทึกค่าใช้จ่าย V 1.0 ')
 GUI.geometry('580x670+500+10')
 
 # B1 = Button(GUI,text='Hello1')
@@ -59,6 +59,7 @@ def Save(even=None):
 	elif price =='':
 
 		messagebox.showwarning('ERROR','กรุณากรอกราคา')
+		print('กรุณาใส่ราคา')
 		return
 
 	elif quantity =='':
